@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#Header{
+
+    overflow: auto;
+    padding: 6px 4rem;
+    position: fixed;
+    width: 90%;
+}
+
+#Header .left a{
+    float: left;
+    text-decoration: none;
+    color: #FFFFFFB3;
+    margin: 0px 16px 0px 0px;
+    padding: 5px 63px;
+    font-size: 28px;
+}
+
+#Header .right a{
+    float: right;
+    text-decoration: none;
+    color: #FFFFFFB3;
+    font: 14.4px;
+    padding: 6px 15px;
+    font-size: 22px;
+}
+
+.First{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 9rem 0;
+    color: white
+}
+ 
+.First h1{
+    font-size: 77px;
+}
+.First a{
+    font-size: 21px;
+    color: #FFFFFFBF;
+}
+
+.First p{
+    padding-bottom: 56px;   
+    font-size: 25px;
+}
+
+.First a{
+    background-color: #F4623A;
+    padding: 20px 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bolder;
+}
+
+.Second{
+    background-color: #F4623A;
+    text-align: center;
+    padding: 75px;
+}
+
+.Second h2{
+    font-size: 45px;
+    margin: 0px 0px 8px;
+    color: white;
+    padding: 5rem;
+}
+
+.Second p{
+    margin: 0px 0px 24px ;
+    font-size: 19px;
+    color: white;
+    padding-bottom: 33px;
+    
+}
+
+.Second a{
+    background-color: white;
+    color: black;
+    font-size: 21px;
+    padding: 19px 31px;
+    border-radius: 24px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.Service-Header .Head{
+    text-align: center;
+    font-size: 29px;
+    margin: 0px 0px 8px;
+}
+
+.Service-Header .Body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+    padding: 0 4rem;
+}
+
+.Body .Box h3, p{
+    text-align: center;
+}
+
+.Body .Box h3{
+    font-size: 25px;
+    padding: -1px;
+    padding-bottom: 18px;
+}
+
+.Body .Box p{
+    font-size: 20px;
+    color: grey;
+    padding: 15px 3rem;
+}
+.Service-Header .Head{
+    padding: 5rem;
+}
+.Body .Box i{
+    color: #F4623A;
+    font-size: 50px;
+    padding: 40px;
+    margin: 0px 90px;
+
+}
+.Product-Box{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.Product-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+}
+.box:hover .Overlay{
+    opacity: 1;
+}
+.Overlay{
+    position: absolute;
+    background-color: rgb(236, 169, 43);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5;
+}
+
+.Product-Box .box{
+   width: 30%;
+}
+
+.Product-Box .box img{
+    width: 133%;
+    vertical-align: bottom;
+}
+
+.Product-Box .box:hover img{
+    background-color: #F4623A;
+}
+
+.Free{
+    background-color: rgb(26, 22, 22);
+    text-align: center;
+    padding: 10rem;
+}
+.Free-text h1{
+    color: white;
+    font-size: 32px;
+    margin: 0px 0px 24px;
+    padding-bottom: 32px;
+
+}
+.Free-text a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    padding: 19px 31px;
+    border-radius: 24px;
+    font-weight: bolder;
+}
+
+.Touch{
+    padding: 10rem;
+    text-align: center;
+}
+.Touch hr{
+    width: 7%;
+    border-style: solid;
+    color: #F4623A;
+    border-width: 2px;
+    text-align: center;
+    margin: 24px 463px;
+}
+
+.Touch p{
+    text-align: center;
+    padding: 1rem 16rem;
+    font-size: 23px;
+    width: 52%;
+    color: grey;
+}
+
+.Touch-body input {
+    padding: 23px 165px;
+    margin: 26px;
+}
+
+.Touch-Message{
+    margin-bottom: 30px;
+}
+
+.Touch-body a{
+    
+        background-color: #f4623a;
+        padding: 19px 224px;
+        color: white;
+        text-decoration: none;
+        border-radius: 33px;
+        font-size: 22px;
+}
+
+.Touch-footer{
+    text-align: center;
+    margin: 94px -19px;
+    color: grey;
+    font-size: 38px;
+}
+
+.Touch-footer p{
+    color: black;
+}
+.Touch-footer h4{
+    font-size: 21px;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.Touch-company{
+    padding: 20px;
+}
